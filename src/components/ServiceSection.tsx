@@ -15,6 +15,7 @@ interface Capability {
 interface ServiceSectionProps {
   id: string;
   brand: string;
+  brandDescription: string;
   title: string;
   description: string;
   subServices: SubService[];
@@ -27,6 +28,7 @@ interface ServiceSectionProps {
 export const ServiceSection = ({
   id,
   brand,
+  brandDescription,
   title,
   description,
   subServices,
@@ -119,8 +121,8 @@ export const ServiceSection = ({
             <h4 className="text-xl font-bold gradient-text mb-2">
               {brand}
             </h4>
-            <p className="text-sm text-muted-foreground">
-              Innovating intelligent AI solutions that drive business growth.
+            <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
+              {brandDescription}
             </p>
           </div>
           

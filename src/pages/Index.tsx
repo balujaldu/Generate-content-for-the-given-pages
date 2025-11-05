@@ -30,6 +30,7 @@ const Index = () => {
     {
       id: "home",
       brand: "Quantum Innovations",
+      brandDescription: "Transforming enterprises through cutting-edge AI, automation, and quantum computing innovation.",
       title: "AI Solutions",
       description: "Deploy enterprise-grade AI systems that drive measurable ROI through intelligent automation, predictive modeling, and advanced natural language understanding. Our solutions reduce operational costs by up to 40% while improving decision accuracy. Recent pilot: A Fortune 500 retailer achieved 28% faster inventory forecasting.",
       subServices: [
@@ -48,6 +49,7 @@ const Index = () => {
     {
       id: "chatbots",
       brand: "ConvoTech AI",
+      brandDescription: "Delivering next-gen chatbot intelligence through adaptive reasoning systems.",
       title: "Custom Chatbots & RAG Systems",
       description: "Build conversational AI agents with retrieval-augmented generation (RAG) to deliver precise, context-aware responses. Reduce customer support tickets by 60% and improve satisfaction scores by 45%. Pilot: A SaaS company automated 70% of tier-1 inquiries in 8 weeks.",
       subServices: [
@@ -66,6 +68,7 @@ const Index = () => {
     {
       id: "predictive",
       brand: "Nexora Labs",
+      brandDescription: "Empowering predictive intelligence to drive strategic decisions.",
       title: "Predictive Analytics Models",
       description: "Unlock future insights with advanced forecasting models that anticipate market shifts, customer behavior, and operational risks. Achieve forecast accuracy exceeding 92% and reduce planning cycles by 50%. Example: A logistics firm cut route costs by 18% through demand prediction.",
       subServices: [
@@ -84,6 +87,7 @@ const Index = () => {
     {
       id: "nlp-cv",
       brand: "Visionary AI",
+      brandDescription: "Unlocking insights from unstructured data through advanced computer vision and NLP.",
       title: "NLP & Computer Vision Projects",
       description: "Extract insights from unstructured text and visual data using state-of-the-art NLP and computer vision. Automate document processing, sentiment analysis, and image classification at scale. Case study: A healthcare provider reduced diagnosis time by 35% with medical image AI.",
       subServices: [
@@ -102,6 +106,7 @@ const Index = () => {
     {
       id: "ai-apps",
       brand: "AppGenius",
+      brandDescription: "Building intelligent applications that learn, adapt, and delight users.",
       title: "AI-Powered Web & Mobile Apps",
       description: "Build intelligent, user-centric applications that integrate ML models for personalization, recommendations, and automation. Increase user engagement by 50% and retention by 35%. Pilot: An e-commerce app boosted conversions by 22% with AI-driven product suggestions.",
       subServices: [
@@ -120,6 +125,7 @@ const Index = () => {
     {
       id: "process-auto",
       brand: "AutoFlow",
+      brandDescription: "Automating enterprise workflows with intelligent process orchestration.",
       title: "Process Automation",
       description: "Streamline end-to-end business processes with intelligent automation that eliminates bottlenecks and accelerates workflows. Achieve 60% reduction in manual tasks and 40% faster turnaround times. Success story: A financial services firm automated loan approvals, cutting processing time from days to hours.",
       subServices: [
@@ -138,6 +144,7 @@ const Index = () => {
     {
       id: "sales-marketing",
       brand: "GrowthEngine",
+      brandDescription: "Accelerating revenue through AI-powered sales and marketing automation.",
       title: "Sales & Marketing Automation",
       description: "Drive revenue growth with AI-powered lead scoring, personalized campaigns, and predictive sales analytics. Increase conversion rates by 45% and reduce acquisition costs by 30%. Example: A B2B SaaS firm grew pipeline by 50% using automated lead nurturing.",
       subServices: [
@@ -156,6 +163,7 @@ const Index = () => {
     {
       id: "hr-recruitment",
       brand: "TalentAI",
+      brandDescription: "Revolutionizing talent acquisition with fair, efficient AI-driven recruiting.",
       title: "HR & Recruitment AI Agents",
       description: "Modernize talent acquisition and employee management with AI-driven screening, onboarding, and engagement tools. Reduce time-to-hire by 50% and improve retention by 25%. Case study: A tech company filled 100+ roles in 6 months with AI-assisted recruiting.",
       subServices: [
@@ -174,6 +182,7 @@ const Index = () => {
     {
       id: "finance-accounting",
       brand: "FinTech Innovate",
+      brandDescription: "Streamlining financial operations through intelligent automation and real-time insights.",
       title: "Finance & Accounting Workflows",
       description: "Automate financial operations from invoice processing to reconciliation and reporting, achieving 70% faster close cycles and 99% accuracy. Real-world impact: A multinational reduced month-end close from 10 days to 3 days with intelligent automation.",
       subServices: [
@@ -192,6 +201,7 @@ const Index = () => {
     {
       id: "customer-support",
       brand: "SupportBot Pro",
+      brandDescription: "Delivering 24/7 customer care through empathetic AI-powered support agents.",
       title: "Customer Support Automation",
       description: "Deliver 24/7 support with AI-powered agents that resolve queries instantly, reducing ticket volume by 65% and improving CSAT by 40%. Pilot: A telecom provider automated 80% of common inquiries, freeing agents for complex issues.",
       subServices: [
@@ -210,6 +220,7 @@ const Index = () => {
     {
       id: "ai-consulting",
       brand: "QuantaMind",
+      brandDescription: "Crafting strategic AI roadmaps that align technology with business objectives.",
       title: "Enterprise AI Roadmap",
       description: "Define a strategic AI vision aligned with business objectives, balancing quick wins with long-term transformation. Our roadmaps deliver 200%+ ROI within 18 months by prioritizing high-impact use cases. Engagement: A manufacturing giant achieved $12M in savings through our phased AI rollout.",
       subServices: [
@@ -228,6 +239,7 @@ const Index = () => {
     {
       id: "digital-transformation",
       brand: "TransformX",
+      brandDescription: "Leading digital transformation through innovative technology and customer-centric design.",
       title: "Digital Transformation Strategy",
       description: "Reimagine business models, operations, and customer experiences with end-to-end digital strategies. Achieve 50% improvement in operational efficiency and 35% revenue uplift. Success: A retail chain pivoted to e-commerce and increased online sales by 300% in one year.",
       subServices: [
@@ -246,6 +258,7 @@ const Index = () => {
     {
       id: "ai-infrastructure",
       brand: "CloudOps AI",
+      brandDescription: "Building scalable ML infrastructure that powers enterprise AI at scale.",
       title: "AI Infrastructure & MLOps",
       description: "Build robust, scalable ML infrastructure with automated training, deployment, and monitoring pipelines. Reduce model deployment time from months to days and ensure 99.9% uptime. Implementation: A fintech achieved 10x faster model iteration with our MLOps platform.",
       subServices: [
@@ -264,6 +277,7 @@ const Index = () => {
     {
       id: "quantum-research",
       brand: "Quantum Frontier",
+      brandDescription: "Pioneering quantum computing breakthroughs for next-generation optimization.",
       title: "Quantum AI Research & Development",
       description: "Explore next-generation computing with quantum algorithms for optimization, cryptography, and machine learning. Early adopters gain 5–10 year competitive advantages. Pilot: A logistics firm tested quantum annealing for route optimization, achieving 15% efficiency gains.",
       subServices: [
@@ -282,6 +296,7 @@ const Index = () => {
     {
       id: "ai-hackathons",
       brand: "InnoBuild",
+      brandDescription: "Accelerating innovation through intensive AI hackathons and rapid prototyping.",
       title: "AI Hackathons",
       description: "Accelerate innovation through intensive, time-boxed hackathons where cross-functional teams prototype AI solutions. Generate 10–15 viable concepts in 48 hours. Event outcome: A pharma company identified 3 high-ROI use cases now in production.",
       subServices: [
@@ -300,6 +315,7 @@ const Index = () => {
     {
       id: "capstone-projects",
       brand: "ProjectLab",
+      brandDescription: "Bridging academia and industry to solve real-world AI challenges.",
       title: "Capstone Projects",
       description: "Partner with academic institutions and internal teams to deliver real-world AI projects that solve business challenges. Build talent pipelines and validate new technologies. Example: A university collaboration yielded a fraud detection model now deployed enterprise-wide.",
       subServices: [
@@ -318,6 +334,7 @@ const Index = () => {
     {
       id: "startup-builder",
       brand: "VentureLaunch",
+      brandDescription: "Incubating AI-driven startups from idea to market leadership.",
       title: "Startup Builder Program",
       description: "Incubate AI-driven startups with end-to-end support: ideation, product development, go-to-market, and fundraising. 70% of program graduates secure seed funding within 6 months. Success: A fintech startup raised $2M after 12 weeks in our accelerator.",
       subServices: [
@@ -336,6 +353,7 @@ const Index = () => {
     {
       id: "n8n-automation",
       brand: "WorkflowPro",
+      brandDescription: "Connecting your tech stack through powerful n8n automation workflows.",
       title: "n8n Automation Tools",
       description: "Deploy n8n-based workflow automation to connect apps, APIs, and data sources without code. Reduce integration costs by 60% and accelerate deployment from weeks to hours. Use case: A marketing agency automated lead routing across 5 platforms, saving 20 hours/week.",
       subServices: [
@@ -354,6 +372,7 @@ const Index = () => {
     {
       id: "odoo-integration",
       brand: "Odoo Solutions",
+      brandDescription: "Unifying business operations with integrated ERP solutions.",
       title: "Odoo ERP Integration",
       description: "Streamline operations with Odoo ERP, integrating accounting, inventory, CRM, and HR into a unified platform. Reduce system complexity by 50% and improve data accuracy by 40%. Deployment: A manufacturing SME consolidated 7 legacy systems into Odoo, cutting IT costs by 35%.",
       subServices: [
@@ -372,6 +391,7 @@ const Index = () => {
     {
       id: "data-pipelines",
       brand: "DataStream",
+      brandDescription: "Enabling reliable, real-time data flows that power analytics and AI.",
       title: "Data Pipeline Automation",
       description: "Build reliable, scalable data pipelines that ingest, transform, and load data for analytics and ML. Reduce data preparation time by 70% and improve data quality by 50%. Example: A retailer automated ETL for 10M daily transactions, enabling real-time reporting.",
       subServices: [
@@ -390,6 +410,7 @@ const Index = () => {
     {
       id: "ai-marketing",
       brand: "MarketIQ",
+      brandDescription: "Optimizing marketing performance through predictive analytics and AI-driven campaigns.",
       title: "AI-Powered Marketing",
       description: "Optimize campaigns with AI-driven audience segmentation, content personalization, and spend allocation. Increase ROAS by 60% and reduce CAC by 35%. Campaign: An e-commerce brand scaled ad spend 3x while maintaining CPA through predictive bidding.",
       subServices: [
@@ -408,6 +429,7 @@ const Index = () => {
     {
       id: "customer-intelligence",
       brand: "InsightEngine",
+      brandDescription: "Delivering 360° customer intelligence that drives retention and growth.",
       title: "Customer Intelligence",
       description: "Gain 360° customer views by unifying data from transactions, interactions, and behaviors. Increase retention by 30% and cross-sell rates by 40%. Application: A subscription service reduced churn by 25% using predictive engagement models.",
       subServices: [
@@ -426,6 +448,7 @@ const Index = () => {
     {
       id: "predictive-growth",
       brand: "GrowthMetrics",
+      brandDescription: "Forecasting business outcomes with precision analytics and predictive modeling.",
       title: "Predictive Analytics for Growth",
       description: "Leverage predictive models to forecast revenue, identify expansion opportunities, and optimize resource allocation. Achieve 25% faster growth and 30% higher profitability. Insight: A SaaS company prioritized high-growth accounts, boosting ARR by $5M in one year.",
       subServices: [
@@ -444,6 +467,7 @@ const Index = () => {
     {
       id: "python",
       brand: "CodeForge",
+      brandDescription: "Powering innovation with Python's versatile data science and development ecosystem.",
       title: "Python",
       description: "Harness Python's versatility for data science, web development, automation, and AI—powering 80% of ML projects globally. Achieve 50% faster development cycles and 60% lower costs. Project: A data team built a forecasting suite in Python, reducing analysis time from weeks to hours.",
       subServices: [
@@ -462,6 +486,7 @@ const Index = () => {
     {
       id: "llamaindex",
       brand: "LlamaLabs",
+      brandDescription: "Building context-aware AI systems through advanced retrieval-augmented generation.",
       title: "LlamaIndex",
       description: "Build advanced RAG applications with LlamaIndex, connecting LLMs to your proprietary data for accurate, context-aware responses. Reduce hallucinations by 80% and improve answer relevance by 70%. Use case: A legal firm deployed a contract Q&A bot with 95% accuracy.",
       subServices: [
@@ -480,6 +505,7 @@ const Index = () => {
     {
       id: "tensorflow-quantum",
       brand: "QuantumML",
+      brandDescription: "Merging quantum computing with machine learning for breakthrough performance.",
       title: "TensorFlow Quantum",
       description: "Merge quantum computing with classical ML using TensorFlow Quantum for hybrid algorithms. Explore quantum advantage in chemistry, optimization, and finance. Early experiments show 2–3x speedups in select use cases. Research: A materials science lab accelerated molecular simulation by 40%.",
       subServices: [
@@ -498,6 +524,7 @@ const Index = () => {
     {
       id: "nextjs",
       brand: "WebForward",
+      brandDescription: "Creating blazing-fast, SEO-optimized web applications with Next.js.",
       title: "Next.js",
       description: "Build high-performance, SEO-friendly web applications with Next.js, React's leading framework for production. Achieve 50% faster page loads and 40% better Core Web Vitals. Launch: An e-commerce site migrated to Next.js, boosting organic traffic by 35% in 3 months.",
       subServices: [
@@ -516,6 +543,7 @@ const Index = () => {
     {
       id: "internal-assistants",
       brand: "AssistantHub",
+      brandDescription: "Empowering employees with conversational AI that understands and assists.",
       title: "Internal AI Assistants",
       description: "Deploy conversational AI agents for employees—answering HR questions, looking up policies, and automating workflows. Reduce support tickets by 50% and improve employee satisfaction by 30%. Implementation: A global firm rolled out an HR bot, resolving 10K queries monthly.",
       subServices: [
@@ -534,6 +562,7 @@ const Index = () => {
     {
       id: "data-analysis-bots",
       brand: "DataBot",
+      brandDescription: "Democratizing data access through natural language query interfaces.",
       title: "Data Analysis Bots",
       description: "Enable non-technical users to query databases and generate reports through natural language. Democratize data access, reducing analyst workload by 60% and accelerating decision-making by 40%. Case: A sales team built dashboards on-demand, eliminating 2-week BI backlogs.",
       subServices: [
@@ -552,6 +581,7 @@ const Index = () => {
     {
       id: "workflow-agents",
       brand: "AgentFlow",
+      brandDescription: "Orchestrating intelligent workflows with autonomous AI agents.",
       title: "Workflow AI Agents",
       description: "Orchestrate complex, multi-step workflows with autonomous AI agents that make decisions, invoke tools, and collaborate. Reduce process time by 70% and errors by 60%. Example: A procurement agent automated vendor selection, negotiation, and PO generation end-to-end.",
       subServices: [
@@ -570,6 +600,7 @@ const Index = () => {
     {
       id: "for-startups",
       brand: "StartupAlliance",
+      brandDescription: "Accelerating startup success through AI expertise and strategic partnerships.",
       title: "For Startups",
       description: "Accelerate product development and go-to-market with tailored AI tools, mentorship, and capital introductions. 80% of partner startups achieve product-market fit within 12 months. Partnership: A health-tech startup scaled from MVP to 10K users in 6 months with our support.",
       subServices: [
@@ -588,6 +619,7 @@ const Index = () => {
     {
       id: "for-enterprises",
       brand: "EnterpriseEdge",
+      brandDescription: "Scaling AI transformation across global enterprises with proven methodologies.",
       title: "For Enterprises",
       description: "Transform at scale with end-to-end AI programs—from strategy to deployment to continuous optimization. Achieve 150%+ ROI and 50% reduction in operational costs within 24 months. Engagement: A global bank deployed AI across 15 functions, saving $50M annually.",
       subServices: [
@@ -606,6 +638,7 @@ const Index = () => {
     {
       id: "ai-investment",
       brand: "VentureQuantum",
+      brandDescription: "Investing in visionary AI startups that shape tomorrow's technology landscape.",
       title: "AI Investment & Venture Support",
       description: "Identify, evaluate, and support high-potential AI startups for investment and partnership. Our portfolio companies achieve 3x higher success rates and 40% faster time to Series A. Deal flow: We screened 500+ startups last year, investing in 12 with 5 exits in progress.",
       subServices: [
@@ -624,6 +657,7 @@ const Index = () => {
     {
       id: "ai-ecommerce",
       brand: "CommerceAI",
+      brandDescription: "Driving e-commerce growth through personalized experiences and intelligent automation.",
       title: "AI for E-Commerce",
       description: "Boost online sales with AI-powered search, recommendations, dynamic pricing, and fraud detection. Increase conversions by 35% and reduce cart abandonment by 25%. Success: A fashion retailer grew revenue by $8M annually after implementing personalized product recommendations.",
       subServices: [
@@ -642,6 +676,7 @@ const Index = () => {
     {
       id: "ai-healthcare",
       brand: "HealthAI",
+      brandDescription: "Advancing healthcare outcomes through AI-powered diagnostics and operational excellence.",
       title: "AI for Healthcare",
       description: "Improve patient outcomes and operational efficiency with AI for diagnostics, treatment planning, and administrative automation. Reduce diagnosis time by 40% and operational costs by 30%. Implementation: A hospital network deployed radiology AI, improving detection rates by 20%.",
       subServices: [
@@ -660,6 +695,7 @@ const Index = () => {
     {
       id: "ai-manufacturing",
       brand: "FactoryAI",
+      brandDescription: "Modernizing manufacturing with predictive maintenance and quality automation.",
       title: "AI for Manufacturing",
       description: "Optimize production with predictive maintenance, quality control, and supply chain intelligence. Reduce downtime by 50%, defects by 40%, and costs by 25%. Case: An automotive plant deployed vision AI for defect detection, cutting rework by 35%.",
       subServices: [
@@ -678,6 +714,7 @@ const Index = () => {
     {
       id: "quantum-pocs",
       brand: "QuantumProofs",
+      brandDescription: "Validating quantum computing value through focused proof-of-concept initiatives.",
       title: "Quantum-AI Proof of Concepts",
       description: "Validate quantum computing's potential for your use case with focused POCs. Test algorithms on real quantum hardware and assess feasibility, ROI, and timeline to production. POC outcome: A chemical company confirmed 20% simulation speedup, greenlighting a 12-month pilot.",
       subServices: [
@@ -696,6 +733,7 @@ const Index = () => {
     {
       id: "automation-audit",
       brand: "AuditPro",
+      brandDescription: "Uncovering automation opportunities that deliver measurable ROI.",
       title: "Automation Audit",
       description: "Assess your current processes, identify automation opportunities, and prioritize by ROI and feasibility. Uncover 30–50 automation candidates in a 2-week audit. Audit result: A logistics company found $3M in savings potential across 15 workflows.",
       subServices: [
@@ -714,6 +752,7 @@ const Index = () => {
     {
       id: "implementation-strategy",
       brand: "StrategyWorks",
+      brandDescription: "Designing actionable AI roadmaps that ensure successful implementation.",
       title: "Implementation Strategy",
       description: "Develop detailed roadmaps for AI and automation initiatives, covering technology, talent, change management, and governance. Ensure 95% on-time, on-budget delivery. Roadmap: A healthcare system executed a 3-year AI plan, hitting all milestones and achieving 180% ROI.",
       subServices: [
@@ -732,6 +771,7 @@ const Index = () => {
     {
       id: "roi-optimization",
       brand: "ROI Accelerator",
+      brandDescription: "Maximizing AI returns through continuous optimization and expansion.",
       title: "ROI Optimization",
       description: "Continuously refine AI systems post-deployment to maximize business value, reduce costs, and scale usage. Achieve 200%+ ROI within 18 months through ongoing optimization. Engagement: A retailer doubled AI-driven revenue impact by fine-tuning models and expanding use cases.",
       subServices: [
@@ -750,6 +790,7 @@ const Index = () => {
     {
       id: "testimonials",
       brand: "ClientVoice",
+      brandDescription: "Showcasing real-world AI success stories from enterprises and innovators.",
       title: "Client Testimonials",
       description: "Hear from enterprises and startups who transformed their operations with our AI solutions. 95% client satisfaction and 90% repeat engagement rate. Testimonial: A Fortune 100 CFO stated, 'Their AI roadmap saved us $20M and positioned us as industry leaders in automation.'",
       subServices: [
@@ -768,6 +809,7 @@ const Index = () => {
     {
       id: "contact",
       brand: "Quantum Innovations",
+      brandDescription: "Building an ecosystem of innovation through strategic partnerships and collaboration.",
       title: "Partner Spotlights",
       description: "Meet our ecosystem of technology partners, investors, and academic institutions collaborating to push AI boundaries. Together, we've launched 200+ projects and raised $100M in funding. Spotlight: Our partnership with a top university yielded 3 patents and 2 spinoff ventures.",
       subServices: [
