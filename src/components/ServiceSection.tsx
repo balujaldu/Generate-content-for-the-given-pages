@@ -112,6 +112,43 @@ export const ServiceSection = ({
             Contact Our Team
           </Button>
         </Card>
+
+        {/* Local Section Footer */}
+        <footer className="mt-16 pt-8 border-t border-border/50 bg-card/30">
+          <div className="text-center mb-6">
+            <h4 className="text-xl font-bold gradient-text mb-2">
+              {brand}
+            </h4>
+            <p className="text-sm text-muted-foreground">
+              Innovating intelligent AI solutions that drive business growth.
+            </p>
+          </div>
+          
+          <nav className="flex flex-wrap justify-center gap-4 mb-6">
+            <a href="#home" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              Company
+            </a>
+            <a href="#about" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              About
+            </a>
+            <a href="#technology" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              Technology
+            </a>
+            <a href="#services" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              Services
+            </a>
+            <a href="#contact" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              Contact
+            </a>
+            <a href="#legal" className="text-xs text-muted-foreground hover:text-primary transition-colors">
+              Legal
+            </a>
+          </nav>
+
+          <div className="text-center text-xs text-muted-foreground/80">
+            <p>&copy; {new Date().getFullYear()} {brand}. All rights reserved.</p>
+          </div>
+        </footer>
       </div>
     </section>
   );

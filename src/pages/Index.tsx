@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar } from "@/components/Navbar";
 import { ServiceSection } from "@/components/ServiceSection";
-import { Footer } from "@/components/Footer";
 
 const Index = () => {
   const [activeBrand, setActiveBrand] = useState("Quantum Innovations");
@@ -794,7 +793,6 @@ const Index = () => {
           <ServiceSection key={section.id} {...section} />
         ))}
       </main>
-      <Footer />
     </div>
   );
 };
